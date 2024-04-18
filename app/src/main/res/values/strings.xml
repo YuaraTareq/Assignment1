@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="backk">Backk</string>
+    <string-array name="Subjects">
+        <item>Choose the Subject</item>
+        <item>English</item>
+        <item>Math</item>
+        <item>Science</item>
+        <item>Technology</item>
+    </string-array>
+</resources>

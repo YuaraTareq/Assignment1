@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="159dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/downloadlogo" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="8pt"
+        android:text="Enter your UserName and Password" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="16dp"
+        android:hint="Password" />
+
+
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:id="@+id/loginButton"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:onClick="loginButton"
+        android:text="Login" />
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactButton"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:onClick="contactButton"
+        android:text="ContactUs" />
+
+</LinearLayout>
